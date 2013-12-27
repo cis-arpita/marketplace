@@ -9,8 +9,6 @@ $keywords = "samsung";    // make sure this is a valid keyword or keywords
 
 //find items advanced
 $apicalla  = "http://svcs.ebay.com/services/search/FindingService/v1?SECURITY-APPNAME=self56e11-173d-4020-8209-31afe61b5b6&OPERATION-NAME=findItemsByKeywords&SERVICE-VERSION=1.0.0&RESPONSE-DATA-FORMAT=JSON&callback=_cb_findItemsByKeywords&REST-PAYLOAD&keywords=".$keywords."%203g&paginationInput.entriesPerPage=3";
-    
-
 $resp = curl($apicalla);
 
 //print_r($resp);
