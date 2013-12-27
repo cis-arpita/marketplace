@@ -37,17 +37,10 @@
 
     });
   </script>
-
 </head>
-
-<body>
-
   <body>
-  <div class="wrapper">    
-
-
+  <div class="wrapper">
     <form method="get" action="index.php" >
-
       <div class="column">
         <div class="title">Search For:</div>
         <input type="text" class="main" placeholder="Start here" name="keyword" value="<?php echo $keyword; ?>" />
@@ -127,10 +120,6 @@
   }
 
   ?>
-
-  </div>  
-
-
+  </div> 
 </body>
-
 </html>
